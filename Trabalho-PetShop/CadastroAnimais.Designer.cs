@@ -40,20 +40,19 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.txtNomeAnimal = new System.Windows.Forms.TextBox();
+            this.dtpIdade = new System.Windows.Forms.DateTimePicker();
+            this.cbCor = new System.Windows.Forms.ComboBox();
+            this.txtAnilha = new System.Windows.Forms.TextBox();
+            this.cbRacao = new System.Windows.Forms.ComboBox();
+            this.txtObs = new System.Windows.Forms.TextBox();
+            this.txtNomeDono = new System.Windows.Forms.TextBox();
+            this.txtCodigo = new System.Windows.Forms.TextBox();
+            this.cbRACA = new System.Windows.Forms.ComboBox();
+            this.txtDoenca = new System.Windows.Forms.TextBox();
+            this.txtTamanho = new System.Windows.Forms.TextBox();
+            this.btnRegistrar = new System.Windows.Forms.Button();
+            this.txtPeso = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -176,134 +175,134 @@
             this.label12.TabIndex = 11;
             this.label12.Text = "Tamanho do animal";
             // 
-            // textBox1
+            // txtNomeAnimal
             // 
-            this.textBox1.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(15, 95);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 12;
+            this.txtNomeAnimal.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNomeAnimal.Location = new System.Drawing.Point(15, 95);
+            this.txtNomeAnimal.Name = "txtNomeAnimal";
+            this.txtNomeAnimal.Size = new System.Drawing.Size(100, 23);
+            this.txtNomeAnimal.TabIndex = 12;
             // 
-            // dateTimePicker1
+            // dtpIdade
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(15, 159);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(100, 23);
-            this.dateTimePicker1.TabIndex = 13;
+            this.dtpIdade.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpIdade.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpIdade.Location = new System.Drawing.Point(15, 159);
+            this.dtpIdade.Name = "dtpIdade";
+            this.dtpIdade.Size = new System.Drawing.Size(100, 23);
+            this.dtpIdade.TabIndex = 13;
             // 
-            // comboBox1
+            // cbCor
             // 
-            this.comboBox1.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(15, 289);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(103, 23);
-            this.comboBox1.TabIndex = 14;
+            this.cbCor.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbCor.FormattingEnabled = true;
+            this.cbCor.Location = new System.Drawing.Point(15, 289);
+            this.cbCor.Name = "cbCor";
+            this.cbCor.Size = new System.Drawing.Size(103, 23);
+            this.cbCor.TabIndex = 14;
             // 
-            // textBox2
+            // txtAnilha
             // 
-            this.textBox2.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(15, 225);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 23);
-            this.textBox2.TabIndex = 16;
+            this.txtAnilha.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAnilha.Location = new System.Drawing.Point(15, 225);
+            this.txtAnilha.Name = "txtAnilha";
+            this.txtAnilha.Size = new System.Drawing.Size(100, 23);
+            this.txtAnilha.TabIndex = 16;
             // 
-            // comboBox2
+            // cbRacao
             // 
-            this.comboBox2.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(200, 95);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(103, 23);
-            this.comboBox2.TabIndex = 17;
+            this.cbRacao.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbRacao.FormattingEnabled = true;
+            this.cbRacao.Location = new System.Drawing.Point(200, 95);
+            this.cbRacao.Name = "cbRacao";
+            this.cbRacao.Size = new System.Drawing.Size(103, 23);
+            this.cbRacao.TabIndex = 17;
             // 
-            // textBox3
+            // txtObs
             // 
-            this.textBox3.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(200, 162);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 23);
-            this.textBox3.TabIndex = 18;
+            this.txtObs.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtObs.Location = new System.Drawing.Point(200, 162);
+            this.txtObs.Name = "txtObs";
+            this.txtObs.Size = new System.Drawing.Size(100, 23);
+            this.txtObs.TabIndex = 18;
             // 
-            // textBox4
+            // txtNomeDono
             // 
-            this.textBox4.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(200, 225);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 23);
-            this.textBox4.TabIndex = 19;
+            this.txtNomeDono.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNomeDono.Location = new System.Drawing.Point(200, 225);
+            this.txtNomeDono.Name = "txtNomeDono";
+            this.txtNomeDono.Size = new System.Drawing.Size(100, 23);
+            this.txtNomeDono.TabIndex = 19;
             // 
-            // textBox5
+            // txtCodigo
             // 
-            this.textBox5.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(200, 289);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 23);
-            this.textBox5.TabIndex = 20;
+            this.txtCodigo.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCodigo.Location = new System.Drawing.Point(200, 289);
+            this.txtCodigo.Name = "txtCodigo";
+            this.txtCodigo.Size = new System.Drawing.Size(100, 23);
+            this.txtCodigo.TabIndex = 20;
             // 
-            // comboBox3
+            // cbRACA
             // 
-            this.comboBox3.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(396, 95);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(103, 23);
-            this.comboBox3.TabIndex = 21;
+            this.cbRACA.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbRACA.FormattingEnabled = true;
+            this.cbRACA.Location = new System.Drawing.Point(396, 95);
+            this.cbRACA.Name = "cbRACA";
+            this.cbRACA.Size = new System.Drawing.Size(103, 23);
+            this.cbRACA.TabIndex = 21;
             // 
-            // numericUpDown1
+            // txtDoenca
             // 
-            this.numericUpDown1.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown1.Location = new System.Drawing.Point(396, 159);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(103, 23);
-            this.numericUpDown1.TabIndex = 22;
+            this.txtDoenca.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDoenca.Location = new System.Drawing.Point(396, 225);
+            this.txtDoenca.Name = "txtDoenca";
+            this.txtDoenca.Size = new System.Drawing.Size(100, 23);
+            this.txtDoenca.TabIndex = 23;
             // 
-            // textBox6
+            // txtTamanho
             // 
-            this.textBox6.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(396, 225);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 23);
-            this.textBox6.TabIndex = 23;
+            this.txtTamanho.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTamanho.Location = new System.Drawing.Point(396, 290);
+            this.txtTamanho.Name = "txtTamanho";
+            this.txtTamanho.Size = new System.Drawing.Size(100, 23);
+            this.txtTamanho.TabIndex = 24;
             // 
-            // textBox7
+            // btnRegistrar
             // 
-            this.textBox7.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(396, 290);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 23);
-            this.textBox7.TabIndex = 24;
+            this.btnRegistrar.Location = new System.Drawing.Point(236, 378);
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.Size = new System.Drawing.Size(134, 53);
+            this.btnRegistrar.TabIndex = 25;
+            this.btnRegistrar.Text = "Registrar";
+            this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
-            // button1
+            // txtPeso
             // 
-            this.button1.Location = new System.Drawing.Point(236, 378);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(134, 53);
-            this.button1.TabIndex = 25;
-            this.button1.Text = "Registrar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.txtPeso.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPeso.Location = new System.Drawing.Point(396, 162);
+            this.txtPeso.Name = "txtPeso";
+            this.txtPeso.Size = new System.Drawing.Size(100, 23);
+            this.txtPeso.TabIndex = 26;
             // 
             // CadastroAnimais
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(655, 479);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.numericUpDown1);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtPeso);
+            this.Controls.Add(this.btnRegistrar);
+            this.Controls.Add(this.txtTamanho);
+            this.Controls.Add(this.txtDoenca);
+            this.Controls.Add(this.cbRACA);
+            this.Controls.Add(this.txtCodigo);
+            this.Controls.Add(this.txtNomeDono);
+            this.Controls.Add(this.txtObs);
+            this.Controls.Add(this.cbRacao);
+            this.Controls.Add(this.txtAnilha);
+            this.Controls.Add(this.cbCor);
+            this.Controls.Add(this.dtpIdade);
+            this.Controls.Add(this.txtNomeAnimal);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -318,7 +317,6 @@
             this.Controls.Add(this.label1);
             this.Name = "CadastroAnimais";
             this.Text = "CadastroAnimais";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -338,18 +336,18 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtNomeAnimal;
+        private System.Windows.Forms.DateTimePicker dtpIdade;
+        private System.Windows.Forms.ComboBox cbCor;
+        private System.Windows.Forms.TextBox txtAnilha;
+        private System.Windows.Forms.ComboBox cbRacao;
+        private System.Windows.Forms.TextBox txtObs;
+        private System.Windows.Forms.TextBox txtNomeDono;
+        private System.Windows.Forms.TextBox txtCodigo;
+        private System.Windows.Forms.ComboBox cbRACA;
+        private System.Windows.Forms.TextBox txtDoenca;
+        private System.Windows.Forms.TextBox txtTamanho;
+        private System.Windows.Forms.Button btnRegistrar;
+        private System.Windows.Forms.TextBox txtPeso;
     }
 }
