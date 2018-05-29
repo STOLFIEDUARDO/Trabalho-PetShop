@@ -46,16 +46,6 @@ namespace Trabalho_PetShop
                 txtNomeAnimal.Focus();
                 return;
             }
-            try
-            {
-                string Dono = String.Format(txtNomeAnimal.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Deve conter somente letras");
-                txtAnilha.Focus();
-                return;
-            }
             if (txtAnilha.Text.Length == 0)
             {
                 MessageBox.Show("Valor deve ser preenchido");
