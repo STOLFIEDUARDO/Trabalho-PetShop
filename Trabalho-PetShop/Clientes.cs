@@ -11,6 +11,7 @@ namespace Trabalho_PetShop
         public string Nome;
         public string Endereco;
         public string Cidade;
+        public string Estado;
         public string NomeBichinho;
         public string Rg;
         public string Cep;

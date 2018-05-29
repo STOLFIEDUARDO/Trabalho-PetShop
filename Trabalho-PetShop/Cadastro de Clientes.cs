@@ -21,6 +21,21 @@ namespace Trabalho_PetShop
 
         private void btnRegistrar(object sender, EventArgs e)
         {
+
+        }
+
+        private void maskedTextBox3_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
             try
             {
                 string nome = txtNomeCliente.Text;
@@ -41,7 +56,15 @@ namespace Trabalho_PetShop
                 txtCidadeCliente.Focus();
                 return;
             }
+            try
+            {
 
+            }
+            catch 
+            {
+                
+                throw;
+            }
         }
     }
 }
