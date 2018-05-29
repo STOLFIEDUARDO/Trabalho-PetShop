@@ -50,6 +50,7 @@
     <Compile Include="Adotar pet.Designer.cs">
       <DependentUpon>Adotar pet.cs</DependentUpon>
     </Compile>
+    <Compile Include="Animal.cs" />
     <Compile Include="Cadastro de Clientes.cs">
       <SubType>Form</SubType>
     </Compile>
