@@ -80,6 +80,7 @@
     <Compile Include="CadastroDeProdutos.Designer.cs">
       <DependentUpon>CadastroDeProdutos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Clientes.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

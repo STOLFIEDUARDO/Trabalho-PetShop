@@ -56,7 +56,7 @@
             this.txtEmailCliente = new System.Windows.Forms.TextBox();
             this.rbMasculino = new System.Windows.Forms.RadioButton();
             this.rbFeminino = new System.Windows.Forms.RadioButton();
-            this.btnRegistrarCliente = new System.Windows.Forms.Button();
+            this.btnRegistrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -314,22 +314,22 @@
             this.rbFeminino.Text = "Feminino";
             this.rbFeminino.UseVisualStyleBackColor = true;
             // 
-            // btnRegistrarCliente
+            // btnRegistrar
             // 
-            this.btnRegistrarCliente.Font = new System.Drawing.Font("News706 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrarCliente.Location = new System.Drawing.Point(299, 266);
-            this.btnRegistrarCliente.Name = "btnRegistrarCliente";
-            this.btnRegistrarCliente.Size = new System.Drawing.Size(98, 27);
-            this.btnRegistrarCliente.TabIndex = 28;
-            this.btnRegistrarCliente.Text = "Registrar";
-            this.btnRegistrarCliente.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Font = new System.Drawing.Font("News706 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrar.Location = new System.Drawing.Point(309, 253);
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.Size = new System.Drawing.Size(75, 23);
+            this.btnRegistrar.TabIndex = 28;
+            this.btnRegistrar.Text = "Registrar";
+            this.btnRegistrar.UseVisualStyleBackColor = true;
             // 
-            // Cadastro_de_Clientes
+            // CadastroDeClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(738, 417);
-            this.Controls.Add(this.btnRegistrarCliente);
+            this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.rbFeminino);
             this.Controls.Add(this.rbMasculino);
             this.Controls.Add(this.txtEmailCliente);
@@ -358,7 +358,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Cadastro_de_Clientes";
+            this.Name = "CadastroDeClientes";
             this.Text = "Cadastro_de_Clientes";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -395,6 +395,7 @@
         private System.Windows.Forms.TextBox txtEmailCliente;
         private System.Windows.Forms.RadioButton rbMasculino;
         private System.Windows.Forms.RadioButton rbFeminino;
-        private System.Windows.Forms.Button btnRegistrarCliente;
+        private System.Windows.Forms.Button btnRegistrar;
+
     }
 }

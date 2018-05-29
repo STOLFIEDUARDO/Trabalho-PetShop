@@ -12,9 +12,37 @@ namespace Trabalho_PetShop
 {
     public partial class CadastroDeClientes : Form
     {
+
+
         public CadastroDeClientes()
         {
             InitializeComponent();
         }
+
+        private void btnRegistrar(object sender, EventArgs e)
+        {
+            try
+            {
+                string nome = txtNomeCliente.Text;
+            }
+            catch 
+            {
+                MessageBox.Show("Só letra no nome");
+                txtNomeCliente.Focus();
+                return;
+            }
+            try
+            {
+                string cidade = txtCidadeCliente.Text;
+            }
+            catch 
+            {
+                MessageBox.Show("Só letra na cidade");
+                txtCidadeCliente.Focus();
+                return;
+            }
+
+        }
     }
 }
+    

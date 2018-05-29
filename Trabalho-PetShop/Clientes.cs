@@ -9,17 +9,17 @@ namespace Trabalho_PetShop
     class Clientes
     {
         public string Nome;
-        public string Estado;
         public string Endereco;
-        public double RG;
-        public double Telefone;
-        public string EstadoCivil;
-        public DateTime Nascimento;
         public string Cidade;
-        public double CEP;
-        public double CPF;
+        public string NomeBichinho;
+        public string Rg;
+        public string Cep;
+        public string Cpf;
+        public string Telefone;
+        public string EstadoCivil;
         public string Email;
-        public char Sexo;
-
+        public DateTime Nascimento;
+        public bool Masculino;
+        public bool Feminino;
     }
 }

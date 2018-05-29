@@ -8,6 +8,7 @@ namespace Trabalho_PetShop
 {
     static class Program
     {
+        public static List<CadastroDeClientes> cadastros = new List<CadastroDeClientes>();
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
