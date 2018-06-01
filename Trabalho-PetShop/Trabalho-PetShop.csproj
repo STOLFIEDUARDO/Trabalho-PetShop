@@ -1,19 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5A19811F-48E2-42C9-AABE-5F19B537ED8F}</ProjectGuid>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{13FC78CB-1A4B-4341-952D-5BED1C3FE603}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Trabalho_PetShop</RootNamespace>
-    <AssemblyName>Trabalho-PetShop</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -21,142 +19,157 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Trabalho_PetShop</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Deployment" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Adotar pet.cs">
+    <Compile Include="AdotarPet.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Adotar pet.Designer.cs">
-      <DependentUpon>Adotar pet.cs</DependentUpon>
+    <Compile Include="AdotarPet.Designer.cs">
+      <DependentUpon>AdotarPet.cs</DependentUpon>
     </Compile>
-    <Compile Include="Animal.cs" />
-    <Compile Include="Cadastro de Clientes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Cadastro de Clientes.Designer.cs">
-      <DependentUpon>Cadastro de Clientes.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Cadastro Funcionário.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Cadastro Funcionário.Designer.cs">
-      <DependentUpon>Cadastro Funcionário.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Animais.cs" />
     <Compile Include="CadastroAnimais.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CadastroAnimais.Designer.cs">
       <DependentUpon>CadastroAnimais.cs</DependentUpon>
     </Compile>
-    <Compile Include="CadastroAnimaisBanhoEtosa.cs">
+    <Compile Include="CadastroCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CadastroAnimaisBanhoEtosa.Designer.cs">
-      <DependentUpon>CadastroAnimaisBanhoEtosa.cs</DependentUpon>
+    <Compile Include="CadastroCliente.Designer.cs">
+      <DependentUpon>CadastroCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="CadastroDeProdutos.cs">
+    <Compile Include="CadastroDoZooPet.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CadastroDeProdutos.Designer.cs">
-      <DependentUpon>CadastroDeProdutos.cs</DependentUpon>
+    <Compile Include="CadastroDoZooPet.Designer.cs">
+      <DependentUpon>CadastroDoZooPet.cs</DependentUpon>
     </Compile>
-    <Compile Include="Clientes.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="CadastroFuncionario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="CadastroFuncionario.Designer.cs">
+      <DependentUpon>CadastroFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroTosaEBanho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroTosaEBanho.Designer.cs">
+      <DependentUpon>CadastroTosaEBanho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroVeterinario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroVeterinario.Designer.cs">
+      <DependentUpon>CadastroVeterinario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente.cs" />
+    <Compile Include="Funcionario.cs" />
+    <Compile Include="ListaAnimais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaAnimais.Designer.cs">
+      <DependentUpon>ListaAnimais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaPet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaPet.Designer.cs">
+      <DependentUpon>ListaPet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListarCliente.Designer.cs">
+      <DependentUpon>ListarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListarTosa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListarTosa.Designer.cs">
+      <DependentUpon>ListarTosa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Veterinário.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Veterinário.Designer.cs">
-      <DependentUpon>Veterinário.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ZooPet.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ZooPet.Designer.cs">
-      <DependentUpon>ZooPet.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="Adotar pet.resx">
-      <DependentUpon>Adotar pet.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Cadastro de Clientes.resx">
-      <DependentUpon>Cadastro de Clientes.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Cadastro Funcionário.resx">
-      <DependentUpon>Cadastro Funcionário.cs</DependentUpon>
+    <Compile Include="Tosa.cs" />
+    <Compile Include="Veterinario.cs" />
+    <Compile Include="ZooPets.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AdotarPet.resx">
+      <DependentUpon>AdotarPet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CadastroAnimais.resx">
       <DependentUpon>CadastroAnimais.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CadastroAnimaisBanhoEtosa.resx">
-      <DependentUpon>CadastroAnimaisBanhoEtosa.cs</DependentUpon>
+    <EmbeddedResource Include="CadastroCliente.resx">
+      <DependentUpon>CadastroCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CadastroDeProdutos.resx">
-      <DependentUpon>CadastroDeProdutos.cs</DependentUpon>
+    <EmbeddedResource Include="CadastroDoZooPet.resx">
+      <DependentUpon>CadastroDoZooPet.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="CadastroFuncionario.resx">
+      <DependentUpon>CadastroFuncionario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
+    <EmbeddedResource Include="CadastroTosaEBanho.resx">
+      <DependentUpon>CadastroTosaEBanho.cs</DependentUpon>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="Veterinário.resx">
-      <DependentUpon>Veterinário.cs</DependentUpon>
+    <EmbeddedResource Include="CadastroVeterinario.resx">
+      <DependentUpon>CadastroVeterinario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ZooPet.resx">
-      <DependentUpon>ZooPet.cs</DependentUpon>
+    <EmbeddedResource Include="ListaAnimais.resx">
+      <DependentUpon>ListaAnimais.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
+    <EmbeddedResource Include="ListaPet.resx">
+      <DependentUpon>ListaPet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListarCliente.resx">
+      <DependentUpon>ListarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListarTosa.resx">
+      <DependentUpon>ListarTosa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <Content Include="Resources\actualize-arrows-couple-in-circle.png" />
+    <Content Include="Resources\delete.png" />
+    <Content Include="Resources\edit %281%29.png" />
+    <Content Include="Resources\plus.png" />
   </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
 </Project>

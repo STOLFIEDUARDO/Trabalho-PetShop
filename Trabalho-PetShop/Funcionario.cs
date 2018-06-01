@@ -4,21 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Trabalho_PetShop
+namespace entra21_trabalho_02
 {
-    class Funcionario
+    public class Funcionario
     {
         public string Nome;
+        public int Idade;
         public string Estado;
-        public string Endereco;
-        public double RG;
-        public double Telefone;
-        public string Setor;
-        public DateTime Nascimento;
         public string Cidade;
-        public double CEP;
-        public double CPF;
+        public int Telefone;
+        public string Setor;
+        public string Endereco;
+        public int Cep;
+        public int Rg;
+        public int Cpf;
         public string Email;
-        public char Sexo;
+        public bool Masculino;
+        public bool Feminino;
     }
 }

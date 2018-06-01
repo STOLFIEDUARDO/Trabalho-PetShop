@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Trabalho_PetShop
 {
-    public partial class CadastroFuncionario : Form
+    public partial class AdotarPet : Form
     {
-        public CadastroFuncionario()
+        public AdotarPet()
         {
             InitializeComponent();
         }

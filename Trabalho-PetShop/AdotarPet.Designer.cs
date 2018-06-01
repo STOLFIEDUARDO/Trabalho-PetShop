@@ -1,6 +1,6 @@
 ﻿namespace Trabalho_PetShop
 {
-    partial class Adotar_pet
+    partial class AdotarPet
     {
         /// <summary>
         /// Required designer variable.
